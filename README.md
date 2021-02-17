@@ -67,7 +67,7 @@ $ yarn start:client # start the create react app
 ## TODO
 
 - [ ] Draft and publish (must have, I think)
-- [ ] Checking permissions before allowing to edit the content (token already available)
+- [x] Checking permissions before allowing to edit the content (token already available)
 - [ ] Prevent the first "flash" screen because of polling-url / handshake
 - [ ] Use the design system components
 - [ ] Allowing configurations (passing the client URL, managing CORS etc...)
