@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "start:strapi": "yarn --cwd ./packages/strapi-app develop",
+    "start:client": "yarn --cwd ./packages/react-test-app start"
+  },
+  "name": "strapi-plugin-preview",
+  "dependencies": {
+    "react-icons": "^4.2.0"
+  }
+}
